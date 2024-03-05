@@ -1,0 +1,77 @@
+.owned-item-tile {
+  width: 200px;
+  height: 250px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 16px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.owned-item-tile h3 {
+  margin: 8px 0;
+  max-height: 2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.owned-item-tile h3:hover {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+}
+
+.owned-item-tile .image-container {
+  flex: 1;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.owned-item-tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.owned-item-tile p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.quantity-button {
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.quantity-button.decrement {
+  background-color: #ff6666;
+  color: white;
+  border: none;
+}
+
+.quantity-button.increment {
+  background-color: #66cc66;
+  color: white;
+  border: none;
+}

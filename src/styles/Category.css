@@ -1,0 +1,51 @@
+
+
+.category-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #e0c138;
+  width: 200px;
+  margin: 10px; 
+  display: flex;
+  flex-direction: column; 
+}
+
+.category-item h3 {
+  margin-bottom: 10px;
+}
+
+.category-item p {
+  color: #555;
+  flex-grow: 1; 
+}
+
+.category-item:hover {
+  transform: scale(1.05);
+  filter: brightness(0.8);
+}
+
+.category-item-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.description {
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  display: -webkit-box;
+  -webkit-line-clamp: 3; 
+  -webkit-box-orient: vertical;
+}
+
+.image-container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,56 @@
+.browse-items-container {
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 10px;
+    height: 80%;
+  }
+  
+  .category-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+
+  .goBackButton {
+    background-color: #4CAF50; 
+    color: white;
+    border: none; 
+    padding: 10px 15px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 10px; 
+    display: block; 
+  }
+  
+  .goBackButton:hover {
+    background-color: #45a049; 
+  }
+  
+.category-container {
+  margin-bottom: 20px; 
+}
+
+.item-set-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.item-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item-container li {
+  margin-bottom: 5px;
+}

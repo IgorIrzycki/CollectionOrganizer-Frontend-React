@@ -1,0 +1,67 @@
+
+.compare-collections-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    table-layout: fixed;
+  }
+  
+  .compare-collections-table th,
+  .compare-collections-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    width: 100px;
+  }
+  
+  .compare-collections-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .legend {
+    margin-top: 10px;
+  }
+  
+  .legend p {
+    margin-bottom: 5px;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .legend-color {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .highlight-red {
+    background-color: #ffcccc; 
+  }
+  
+  .highlight-green {
+    background-color: #ccffcc; 
+  }
+
+  .trade-offer-button {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    padding: 10px 15px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-bottom: 10px; 
+    display: block; 
+  }
+  
+  .trade-offer-button:hover {
+    background-color: #45a049; 
+  }

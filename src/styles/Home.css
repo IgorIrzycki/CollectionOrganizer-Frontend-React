@@ -1,0 +1,34 @@
+
+.home-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.navigation-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.welcome-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.welcome-text {
+  margin-right: 10px;
+}
+
+.logout-button {
+  background-color: #ff0000; 
+  color: #fff; 
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
